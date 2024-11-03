@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AgoodShop carrito compra</title>
+</head>
+<body>
+    <!-- Tabla de productos -->
+    <h1>AgoodShop</h1>
+    <div class="containerPrincipal">
+      <div id="containerTabla"  >
+          <table class="table"  id="tablaProducto">
+            <thead>
+              <tr>
+                <th>Producto</th>
+                <th>Cantidad</th>
+                <th>Precio</th>
+                <th>Total</th>             
+              </tr>
+            </thead>
+          
+            <tbody id="cuerpoTabla">
+            
+            </tbody>
+          
+          </table>
+      </div>
+
+    <!-- Contenedor del Carrito -->
+    
+      <div id="containerCarrito">
+        <h2>Total</h2>
+        <table>
+            <tbody id="productosCarrito">
+                <!-- Aquí se cargarán los productos del carrito -->
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2"><strong>Total</strong></td>
+                    <td id="totalCarrito">0 €</td>
+                </tr>
+            </tfoot>
+        </table>
+      </div>
+    </div>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
